@@ -18,8 +18,8 @@ chmod +x setup_pihole.sh
 # Run setup_project.sh
 ./setup_project.sh
 
-# Run setup_pihole.sh
-./setup_pihole.sh
+# Run setup_pihole.sh as Root
+sudo ./setup_pihole.sh
 
 echo "✅ [SafePi Installer] Η εγκατάσταση ολοκληρώθηκε πλήρως!"
 echo "👉 Τώρα μπορείς να ξεκινήσεις το SafePi και να ρυθμίσεις το Pi-hole DHCP."
