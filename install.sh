@@ -9,7 +9,7 @@ sudo apt install -y git
 # Clone SafePi repository
 cd ~
 git clone https://github.com/petranpap/SafePi/
-cd safe-pi
+cd SafePi
 
 # Make scripts executable
 chmod +x setup_project.sh
